@@ -3,87 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Debate: IA - Avanço para a Humanidade</title>
+    <title>IA e o Futuro do Trabalho</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-        <h1>Debate: A Inteligência Artificial é um Avanço para a Humanidade</h1>
+        <h1>Inteligência Artificial e o Futuro dos Empregos</h1>
     </header>
 
     <main>
-        <section class="argumentos">
-            <h2>Argumentos Infalíveis</h2>
-
-            <div class="card">
-                <h3>1. A IA Aumenta a Eficiência e Produtividade</h3>
-                <p>A automação de tarefas repetitivas permite que humanos foquem em atividades mais criativas e estratégicas.</p>
-                <p><strong>Exemplo:</strong> Chatbots agilizam o atendimento ao cliente, reduzindo tempo de espera.</p>
-            </div>
-
-            <div class="card">
-                <h3>2. Avanços na Medicina e Saúde</h3>
-                <p>A IA auxilia no diagnóstico precoce de doenças como câncer e Alzheimer.</p>
-                <p><strong>Exemplo:</strong> Algoritmos de IA ajudam a identificar padrões em exames de imagem com mais precisão.</p>
-            </div>
-
-            <div class="card">
-                <h3>3. Segurança e Prevenção de Riscos</h3>
-                <p>A IA detecta fraudes bancárias e ataques cibernéticos em tempo real.</p>
-                <p><strong>Exemplo:</strong> IA do Google prevê terremotos com maior antecedência.</p>
-            </div>
-
-            <div class="card">
-                <h3>4. Democratização do Conhecimento</h3>
-                <p>IA permite acesso à educação de qualidade com tutores virtuais e traduções automáticas.</p>
-                <p><strong>Exemplo:</strong> Coursera e Khan Academy usam IA para personalizar o ensino.</p>
-            </div>
-
-            <div class="card">
-                <h3>5. Impulso à Inovação Científica</h3>
-                <p>A IA acelera descobertas científicas analisando milhões de dados em minutos.</p>
-                <p><strong>Exemplo:</strong> IA ajudou a desenvolver vacinas contra a COVID-19 em tempo recorde.</p>
-            </div>
-
-            <div class="card">
-                <h3>6. Redução de Trabalho Perigoso e Insalubre</h3>
-                <p>Robôs realizam trabalhos em minas, exploração espacial e desarmamento de bombas.</p>
-                <p><strong>Exemplo:</strong> IA usada para desarmar minas terrestres em zonas de guerra.</p>
-            </div>
+        <section>
+            <h2>1. A História Mostra que a Tecnologia Não Destrói Empregos, Mas os Transforma</h2>
+            <p>O medo de que novas tecnologias causem desemprego em massa não é novo...</p>
         </section>
 
-        <section class="dicas">
-            <h2>Dicas para o Debate</h2>
-
-            <ul>
-                <li><strong>Antecipe Contra-Argumentos:</strong> Se disserem que a IA substitui empregos, responda que ela cria novas profissões e aumenta a produtividade.</li>
-                <li><strong>Use Dados e Exemplos:</strong> Exemplo: "O ChatGPT ajudou milhões de estudantes a melhorar sua escrita e aprendizado."</li>
-                <li><strong>Fale com Confiança e Clareza:</strong> Evite gaguejar ou parecer inseguro. Respire e reformule a ideia se necessário.</li>
-                <li><strong>Mantenha a Postura Respeitosa:</strong> Não interrompa, mas também não permita que interrompam você.</li>
-                <li><strong>Finalização Impactante:</strong> “A IA não substitui a humanidade, ela potencializa o que há de melhor em nós: nossa capacidade de inovar.”</li>
-            </ul>
+        <section>
+            <h2>2. IA Como Criadora de Novas Oportunidades</h2>
+            <p>A inteligência artificial não apenas otimiza processos, mas também gera novas funções e setores...</p>
         </section>
 
-        <button id="modo-noturno">Ativar Modo Noturno</button>
+        <section>
+            <h2>3. Adaptação e Qualificação São a Chave</h2>
+            <p>O problema não está na IA, mas na falta de qualificação para as novas funções...</p>
+        </section>
+
+        <section>
+            <h2>4. Dados Atuais: A IA Pode Gerar Mais Empregos do Que Eliminar</h2>
+            <p>Pesquisas mostram que o impacto da IA será positivo no saldo de empregos...</p>
+        </section>
+
+        <section>
+            <h2>Conclusão</h2>
+            <p>A IA não é um retrocesso, mas uma evolução...</p>
+        </section>
     </main>
 
-    <footer>
-        <p>Desenvolvido para o Debate - Grupo 3</p>
-    </footer>
+    <button onclick="mudarFundo()">Trocar Fundo</button>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            alert("Bem-vindo ao Debate sobre Inteligência Artificial!");
-
-            const botaoModoNoturno = document.getElementById("modo-noturno");
-            let modoEscuroAtivo = false;
-
-            botaoModoNoturno.addEventListener("click", function () {
-                document.body.classList.toggle("dark-mode");
-                modoEscuroAtivo = !modoEscuroAtivo;
-                botaoModoNoturno.textContent = modoEscuroAtivo ? "Desativar Modo Noturno" : "Ativar Modo Noturno";
-            });
-        });
+        function mudarFundo() {
+            document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?technology,ai')";
+        }
     </script>
+
 </body>
 </html>
